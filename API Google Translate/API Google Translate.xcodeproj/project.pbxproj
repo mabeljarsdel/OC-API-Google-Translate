@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FF5AC6E24B3D2C2008767D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5AC6D24B3D2C2008767D7 /* AppDelegate.swift */; };
+		5FF5AC7024B3D2C2008767D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5AC6F24B3D2C2008767D7 /* SceneDelegate.swift */; };
+		5FF5AC7224B3D2C2008767D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5AC7124B3D2C2008767D7 /* ViewController.swift */; };
+		5FF5AC7524B3D2C2008767D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF5AC7324B3D2C2008767D7 /* Main.storyboard */; };
+		5FF5AC7724B3D2C7008767D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF5AC7624B3D2C7008767D7 /* Assets.xcassets */; };
+		5FF5AC7A24B3D2C7008767D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF5AC7824B3D2C7008767D7 /* LaunchScreen.storyboard */; };
+		5FF5AC8524B3D2C7008767D7 /* API_Google_TranslateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5AC8424B3D2C7008767D7 /* API_Google_TranslateTests.swift */; };
+		5FF5AC9024B3D2C7008767D7 /* API_Google_TranslateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5AC8F24B3D2C7008767D7 /* API_Google_TranslateUITests.swift */; };
+		5FF5AC9E24B3D61E008767D7 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5AC9D24B3D61E008767D7 /* Main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FF5AC8124B3D2C7008767D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF5AC6224B3D2C2008767D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF5AC6924B3D2C2008767D7;
+			remoteInfo = "API Google Translate";
+		};
+		5FF5AC8C24B3D2C7008767D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF5AC6224B3D2C2008767D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF5AC6924B3D2C2008767D7;
+			remoteInfo = "API Google Translate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FF5AC6A24B3D2C2008767D7 /* API Google Translate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API Google Translate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF5AC6D24B3D2C2008767D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FF5AC6F24B3D2C2008767D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5FF5AC7124B3D2C2008767D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FF5AC7424B3D2C2008767D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FF5AC7624B3D2C7008767D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FF5AC7924B3D2C7008767D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FF5AC7B24B3D2C7008767D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF5AC8024B3D2C7008767D7 /* API Google TranslateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API Google TranslateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF5AC8424B3D2C7008767D7 /* API_Google_TranslateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Google_TranslateTests.swift; sourceTree = "<group>"; };
+		5FF5AC8624B3D2C7008767D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF5AC8B24B3D2C7008767D7 /* API Google TranslateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API Google TranslateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF5AC8F24B3D2C7008767D7 /* API_Google_TranslateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Google_TranslateUITests.swift; sourceTree = "<group>"; };
+		5FF5AC9124B3D2C7008767D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF5AC9D24B3D61E008767D7 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF5AC6724B3D2C2008767D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF5AC7D24B3D2C7008767D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF5AC8824B3D2C7008767D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FF5AC6124B3D2C2008767D7 = {
+			isa = PBXGroup;
+			children = (
+				5FF5AC6C24B3D2C2008767D7 /* API Google Translate */,
+				5FF5AC8324B3D2C7008767D7 /* API Google TranslateTests */,
+				5FF5AC8E24B3D2C7008767D7 /* API Google TranslateUITests */,
+				5FF5AC6B24B3D2C2008767D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF5AC6B24B3D2C2008767D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF5AC6A24B3D2C2008767D7 /* API Google Translate.app */,
+				5FF5AC8024B3D2C7008767D7 /* API Google TranslateTests.xctest */,
+				5FF5AC8B24B3D2C7008767D7 /* API Google TranslateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF5AC6C24B3D2C2008767D7 /* API Google Translate */ = {
+			isa = PBXGroup;
+			children = (
+				5FF5AC6D24B3D2C2008767D7 /* AppDelegate.swift */,
+				5FF5AC6F24B3D2C2008767D7 /* SceneDelegate.swift */,
+				5FF5AC7124B3D2C2008767D7 /* ViewController.swift */,
+				5FF5AC7324B3D2C2008767D7 /* Main.storyboard */,
+				5FF5AC7624B3D2C7008767D7 /* Assets.xcassets */,
+				5FF5AC7824B3D2C7008767D7 /* LaunchScreen.storyboard */,
+				5FF5AC7B24B3D2C7008767D7 /* Info.plist */,
+				5FF5AC9D24B3D61E008767D7 /* Main.swift */,
+			);
+			path = "API Google Translate";
+			sourceTree = "<group>";
+		};
+		5FF5AC8324B3D2C7008767D7 /* API Google TranslateTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FF5AC8424B3D2C7008767D7 /* API_Google_TranslateTests.swift */,
+				5FF5AC8624B3D2C7008767D7 /* Info.plist */,
+			);
+			path = "API Google TranslateTests";
+			sourceTree = "<group>";
+		};
+		5FF5AC8E24B3D2C7008767D7 /* API Google TranslateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FF5AC8F24B3D2C7008767D7 /* API_Google_TranslateUITests.swift */,
+				5FF5AC9124B3D2C7008767D7 /* Info.plist */,
+			);
+			path = "API Google TranslateUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FF5AC6924B3D2C2008767D7 /* API Google Translate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF5AC9424B3D2C7008767D7 /* Build configuration list for PBXNativeTarget "API Google Translate" */;
+			buildPhases = (
+				5FF5AC6624B3D2C2008767D7 /* Sources */,
+				5FF5AC6724B3D2C2008767D7 /* Frameworks */,
+				5FF5AC6824B3D2C2008767D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "API Google Translate";
+			productName = "API Google Translate";
+			productReference = 5FF5AC6A24B3D2C2008767D7 /* API Google Translate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FF5AC7F24B3D2C7008767D7 /* API Google TranslateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF5AC9724B3D2C7008767D7 /* Build configuration list for PBXNativeTarget "API Google TranslateTests" */;
+			buildPhases = (
+				5FF5AC7C24B3D2C7008767D7 /* Sources */,
+				5FF5AC7D24B3D2C7008767D7 /* Frameworks */,
+				5FF5AC7E24B3D2C7008767D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF5AC8224B3D2C7008767D7 /* PBXTargetDependency */,
+			);
+			name = "API Google TranslateTests";
+			productName = "API Google TranslateTests";
+			productReference = 5FF5AC8024B3D2C7008767D7 /* API Google TranslateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FF5AC8A24B3D2C7008767D7 /* API Google TranslateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF5AC9A24B3D2C7008767D7 /* Build configuration list for PBXNativeTarget "API Google TranslateUITests" */;
+			buildPhases = (
+				5FF5AC8724B3D2C7008767D7 /* Sources */,
+				5FF5AC8824B3D2C7008767D7 /* Frameworks */,
+				5FF5AC8924B3D2C7008767D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF5AC8D24B3D2C7008767D7 /* PBXTargetDependency */,
+			);
+			name = "API Google TranslateUITests";
+			productName = "API Google TranslateUITests";
+			productReference = 5FF5AC8B24B3D2C7008767D7 /* API Google TranslateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF5AC6224B3D2C2008767D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Fabien Dietrich";
+				TargetAttributes = {
+					5FF5AC6924B3D2C2008767D7 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					5FF5AC7F24B3D2C7008767D7 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5FF5AC6924B3D2C2008767D7;
+					};
+					5FF5AC8A24B3D2C7008767D7 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5FF5AC6924B3D2C2008767D7;
+					};
+				};
+			};
+			buildConfigurationList = 5FF5AC6524B3D2C2008767D7 /* Build configuration list for PBXProject "API Google Translate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FF5AC6124B3D2C2008767D7;
+			productRefGroup = 5FF5AC6B24B3D2C2008767D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF5AC6924B3D2C2008767D7 /* API Google Translate */,
+				5FF5AC7F24B3D2C7008767D7 /* API Google TranslateTests */,
+				5FF5AC8A24B3D2C7008767D7 /* API Google TranslateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FF5AC6824B3D2C2008767D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF5AC7A24B3D2C7008767D7 /* LaunchScreen.storyboard in Resources */,
+				5FF5AC7724B3D2C7008767D7 /* Assets.xcassets in Resources */,
+				5FF5AC7524B3D2C2008767D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF5AC7E24B3D2C7008767D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF5AC8924B3D2C7008767D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF5AC6624B3D2C2008767D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF5AC7224B3D2C2008767D7 /* ViewController.swift in Sources */,
+				5FF5AC6E24B3D2C2008767D7 /* AppDelegate.swift in Sources */,
+				5FF5AC9E24B3D61E008767D7 /* Main.swift in Sources */,
+				5FF5AC7024B3D2C2008767D7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF5AC7C24B3D2C7008767D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF5AC8524B3D2C7008767D7 /* API_Google_TranslateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF5AC8724B3D2C7008767D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF5AC9024B3D2C7008767D7 /* API_Google_TranslateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FF5AC8224B3D2C7008767D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF5AC6924B3D2C2008767D7 /* API Google Translate */;
+			targetProxy = 5FF5AC8124B3D2C7008767D7 /* PBXContainerItemProxy */;
+		};
+		5FF5AC8D24B3D2C7008767D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF5AC6924B3D2C2008767D7 /* API Google Translate */;
+			targetProxy = 5FF5AC8C24B3D2C7008767D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FF5AC7324B3D2C2008767D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF5AC7424B3D2C2008767D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FF5AC7824B3D2C7008767D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF5AC7924B3D2C7008767D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FF5AC9224B3D2C7008767D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FF5AC9324B3D2C7008767D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FF5AC9524B3D2C7008767D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578R27WKR9;
+				INFOPLIST_FILE = "API Google Translate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabien-Dietrich.API-Google-Translate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FF5AC9624B3D2C7008767D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578R27WKR9;
+				INFOPLIST_FILE = "API Google Translate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabien-Dietrich.API-Google-Translate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FF5AC9824B3D2C7008767D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578R27WKR9;
+				INFOPLIST_FILE = "API Google TranslateTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabien-Dietrich.API-Google-TranslateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/API Google Translate.app/API Google Translate";
+			};
+			name = Debug;
+		};
+		5FF5AC9924B3D2C7008767D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578R27WKR9;
+				INFOPLIST_FILE = "API Google TranslateTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabien-Dietrich.API-Google-TranslateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/API Google Translate.app/API Google Translate";
+			};
+			name = Release;
+		};
+		5FF5AC9B24B3D2C7008767D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578R27WKR9;
+				INFOPLIST_FILE = "API Google TranslateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabien-Dietrich.API-Google-TranslateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "API Google Translate";
+			};
+			name = Debug;
+		};
+		5FF5AC9C24B3D2C7008767D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578R27WKR9;
+				INFOPLIST_FILE = "API Google TranslateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabien-Dietrich.API-Google-TranslateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "API Google Translate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF5AC6524B3D2C2008767D7 /* Build configuration list for PBXProject "API Google Translate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF5AC9224B3D2C7008767D7 /* Debug */,
+				5FF5AC9324B3D2C7008767D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF5AC9424B3D2C7008767D7 /* Build configuration list for PBXNativeTarget "API Google Translate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF5AC9524B3D2C7008767D7 /* Debug */,
+				5FF5AC9624B3D2C7008767D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF5AC9724B3D2C7008767D7 /* Build configuration list for PBXNativeTarget "API Google TranslateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF5AC9824B3D2C7008767D7 /* Debug */,
+				5FF5AC9924B3D2C7008767D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF5AC9A24B3D2C7008767D7 /* Build configuration list for PBXNativeTarget "API Google TranslateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF5AC9B24B3D2C7008767D7 /* Debug */,
+				5FF5AC9C24B3D2C7008767D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FF5AC6224B3D2C2008767D7 /* Project object */;
+}
